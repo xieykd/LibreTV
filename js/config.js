@@ -30,18 +30,22 @@ const API_SITES = {
     ruyi: {
         api: 'https://cj.rycjapi.com/api.php/provide/vod',
         name: '如意资源',
+        detail: 'https://cj.rycjapi.com',
     },
     bfzy: {
         api: 'https://bfzyapi.com/api.php/provide/vod',
         name: '暴风资源',
+        detail: 'https://bfzyapi.com',
     },
     tyyszy: {
         api: 'https://tyyszy.com/api.php/provide/vod',
         name: '天涯资源',
+        detail: 'https://tyyszy.com',
     },
     xiaomaomi: {
         api: 'https://zy.xmm.hk/api.php/provide/vod',
         name: '小猫咪资源',
+        detail: 'https://zy.xmm.hk',
     },
     ffzy: {
         api: 'http://ffzy5.tv/api.php/provide/vod',
@@ -56,18 +60,22 @@ const API_SITES = {
     zy360: {
         api: 'https://360zy.com/api.php/provide/vod',
         name: '360资源',
+        detail: 'https://360zy.com',
     },
     iqiyi: {
         api: 'https://www.iqiyizyapi.com/api.php/provide/vod',
         name: 'iqiyi资源',
+        detail: 'https://www.iqiyizyapi.com',
     },
     wolong: {
         api: 'https://wolongzyw.com/api.php/provide/vod',
         name: '卧龙资源',
+        detail: 'https://wolongzyw.com',
     }, 
     hwba: {
         api: 'https://cjhwba.com/api.php/provide/vod',
         name: '华为吧资源',
+        detail: 'https://cjhwba.com',
     },
     jisu: {
         api: 'https://jszyapi.com/api.php/provide/vod',
@@ -77,42 +85,52 @@ const API_SITES = {
     dbzy: {
         api: 'https://dbzy.tv/api.php/provide/vod',
         name: '豆瓣资源',
+        detail: 'https://dbzy.tv',
     },
     mozhua: {
         api: 'https://mozhuazy.com/api.php/provide/vod',
         name: '魔爪资源',
+        detail: 'https://mozhuazy.com',
     },
     mdzy: {
         api: 'https://www.mdzyapi.com/api.php/provide/vod',
         name: '魔都资源',
+        detail: 'https://www.mdzyapi.com',
     },
     zuid: {
         api: 'https://api.zuidapi.com/api.php/provide/vod',
         name: '最大资源'
+        detail: 'https://api.zuidapi.com',
     },
     yinghua: {
         api: 'https://m3u8.apiyhzy.com/api.php/provide/vod',
         name: '樱花资源'
+    detail: 'https://m3u8.apiyhzy.com',
     },
     baidu: {
         api: 'https://api.apibdzy.com/api.php/provide/vod',
         name: '百度云资源'
+        detail: 'https://api.apibdzy.com',
     },
     wujin: {
         api: 'https://api.wujinapi.me/api.php/provide/vod',
         name: '无尽资源'
+        detail: 'https://api.wujinapi.me',
     },
     wwzy: {
         api: 'https://wwzy.tv/api.php/provide/vod',
         name: '旺旺短剧'
+        detail: 'https://wwzy.tv',
     },
     ikun: {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
         name: 'iKun资源'
+        detail: 'https://ikunzyapi.com',
     },
     lzi: {
         api: 'https://cj.lziapi.com/api.php/provide/vod/',
         name: '量子资源站'
+        detail: 'https://cj.lziapi.com',
     },
     testSource: {
         api: 'https://www.example.com/api.php/provide/vod',
@@ -123,30 +141,36 @@ const API_SITES = {
         api: 'https://www.ckzy1.com',
         name: 'CK资源',
         adult: true
+        detail: 'https://www.ckzy1.com',        
     },
     jkun: {
         api: 'https://jkunzyapi.com',
         name: 'jkun资源',
         adult: true
+        detail: 'https://jkunzyapi.com',        
     },
     bwzy: {
         api: 'https://api.bwzym3u8.com',
         name: '百万资源',
         adult: true
+        detail: 'https://api.bwzym3u8.com',
     },
     souav: {
         api: 'https://api.souavzy.vip',
         name: 'souav资源',
         adult: true
+        detail: 'https://api.souavzy.vip',        
     },
     r155: {
         api: 'https://155api.com',
         name: '155资源',
         adult: true
+        detail: 'https://155api.com',        
     },
     lsb: {
         api: 'https://apilsbzy1.com',
         name: 'lsb资源',
+        detail: 'https://apilsbzy1.com',
         adult: true
     },
     huangcang: {
@@ -158,7 +182,8 @@ const API_SITES = {
     yutu: {
         api: 'https://yutuzy10.com',
         name: '玉兔资源',
-        adult: true
+        adult: true,
+        detail: 'https://yutuzy10.com'
     },
 
     // 下面是资源失效率高的API源，不建议使用
